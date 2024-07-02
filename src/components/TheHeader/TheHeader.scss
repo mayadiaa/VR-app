@@ -1,0 +1,53 @@
+#TheHeader {
+    height: 100vh;
+    background-color: black;
+    background-image: url("../photos/bg.jpg");
+    background-size: cover;
+    background-position: 50%;
+
+    video {
+        height: 100vh;
+        width: 100%;
+        opacity: 0.2;
+        object-fit: cover;
+    }
+
+    #Content {
+        position: absolute;
+        top: 15rem;
+        left: 2rem;
+        height: 20rem;
+        z-index: 4;
+        margin: 0px 15%;
+    }
+
+        h1 {
+            font-size: 4rem;
+            color: white;
+        }
+
+        p {
+            color: white;
+            padding-top: 1.5rem;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+#TheHeader:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+    opacity: 0.85;
+    background: #833ab4;
+    mix-blend-mode: multiply;
+
+
+}

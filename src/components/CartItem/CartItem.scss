@@ -1,0 +1,48 @@
+td{
+    .ImgDiv2{
+        height: 7rem;
+        padding: 0 13%;
+    }
+    
+    .thebtn{
+        text-align:center;
+        .TheButton{
+            background-color: transparent;
+            padding: 0.6rem;
+            width: 7rem;
+            color: white;
+            border: 1px solid #d616e3;
+        }
+        .TheButton:hover{
+            background-color: black;
+            transition: all 400ms ease;
+        }
+    }
+}
+#BtCart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 2.8rem;
+    h5{
+        background-color: #d616e3;
+        width: 1.5rem;
+        text-align: center;
+        border-radius: 1.5rem;
+    }
+    h5:hover{
+        background-color: transparent;
+        border: 1px solid #d616e3;
+        cursor: pointer;
+        transition: all 400ms ease;
+    }
+   
+   
+    
+}
+.ThePrice{
+    text-align: center;
+}

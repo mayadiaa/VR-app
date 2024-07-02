@@ -1,0 +1,43 @@
+#ServiceHeader {
+    height: 70vh;
+    display: flex;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: 50%;
+
+    #Content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 10rem;
+        h1{
+            color: white;
+            z-index: 4;
+            font-size: 3.5rem;
+        }
+        p{
+            color:#e5ddfc;
+            z-index: 2;
+        }
+    }
+
+
+}
+
+#FilterImg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+    opacity: 0.85;
+    background: #833ab4;
+    mix-blend-mode: multiply;
+
+
+}

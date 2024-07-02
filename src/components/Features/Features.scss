@@ -1,0 +1,37 @@
+#FeaturesDiv{
+    background-color: #0b0320;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    .FDiv{
+        display: flex;
+        height: 60vh;
+        background-color: transparent;
+        margin: 1rem;
+        border: 5px solid #160641;
+        border-radius: 1rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2rem;
+        img{
+            width:4.5rem;
+        }
+        h1{
+            padding: 1.5rem 0%;
+            color:white;
+        }
+        p{
+            color:white;
+        }
+    }
+    .Feature{
+        background-color: #160641;
+    }
+}

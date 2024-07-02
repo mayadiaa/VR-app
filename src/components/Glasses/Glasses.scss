@@ -1,0 +1,66 @@
+#GlassesDiv {
+    height: 82vh;
+    display: flex;
+    background-color: #0b0320;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    .Glasses{
+        height: 82vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top: -2rem;
+        img{
+            width: 40rem;
+            position: absolute;
+            bottom: 0;
+            z-index: 2;
+            animation: float 2s infinite alternate-reverse ease-in-out;
+        }
+    }
+    .Glasses1{
+        height:82vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding-left: 7rem;
+        padding-top: 10rem;
+    h1{
+        font-size: 4rem;
+        color: white;
+        span{
+            margin-left: -7rem;
+        }
+    }
+    p{
+        padding: 2rem 0%;
+        color: white;
+    }
+
+    button{
+        padding-top: 2rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 2rem;
+    width: 13rem;
+    }
+    button:hover{
+        transition: all 600ms ease;
+        color:white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    }
+}

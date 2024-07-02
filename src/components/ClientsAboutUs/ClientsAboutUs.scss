@@ -1,0 +1,126 @@
+#ClientsAboutUs {
+    height: 135vh;
+    display: flex;
+    background-color: #0b0320;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+
+    #content1 {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        h5 {
+            color: #4d17e2;
+        }
+
+        h1 {
+            span {
+                color: #d616e3;
+            }
+        }
+
+    }
+
+    #content2 {
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        #Imgdiv {
+            height: 50vh;
+            background-image: url('./1.png');
+            background-size: cover;
+            margin: 2rem;
+            width: 49rem !important;
+            margin-left: 0rem;
+            border-radius: 8px 8px 8px 8px;            
+        }
+
+        #Div1 {
+            height: 50vh;
+            background-color: #160641;
+            border-radius: 8px 8px 8px 8px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 2rem 2%;
+
+            .con1 {
+                img {
+                    height: 1.7rem;
+                }
+
+                p {
+                    margin-top: 1rem;
+                    color: #d8ccfa;
+                }
+            }
+
+            .con {
+
+                p {
+                    color: #d8ccfa;
+
+                }
+            }
+        }
+    }
+
+    #content3 {
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        .contentDiv {
+            height: 50vh;
+            display: flex;
+            margin: 1rem;
+            background-color: transparent;
+            border: 5px solid #160641;
+            border-radius: 8px 8px 8px 8px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 2rem 2%;
+            .con1 {
+                img {
+                    height: 1.7rem;
+                }
+
+                p {
+                    margin-top: 1rem;
+                    color: #d8ccfa;
+                }
+            }
+            .con {
+
+                p {
+                    color: #d8ccfa;
+
+                }
+            }
+        }
+    }
+ 
+}

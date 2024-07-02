@@ -1,0 +1,29 @@
+.Floating {
+    position: relative;
+    height: 32vh;
+    width: 100%;
+    background-color: #0b0320;
+
+
+    img {
+        position: absolute;
+        // height: 19rem;
+        // width: 45rem;
+        bottom: 0;
+        left: 24rem;
+        z-index: 2;
+        animation: float 2s infinite alternate-reverse ease-in-out;
+        
+    }
+}
+
+@keyframes float {
+    0% {
+        bottom: 0;
+    }
+
+    100% {
+        bottom: 40px;
+    }
+}
+

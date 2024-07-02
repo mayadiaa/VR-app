@@ -1,0 +1,243 @@
+#Footer {
+    height: 70vh;
+    display: flex;
+    background-color: #110531;
+    margin-top: 3rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    .Foot {
+        height: 60vh;
+        margin: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1.5rem 5%;
+
+        .imgDiv {
+            margin-top: 0.5rem;
+            display: flex;
+
+            img {
+                width: 15rem;
+                padding: 1rem;
+                margin-left: -1rem;
+            }
+        }
+
+        .Image {
+            width: 16rem;
+        }
+
+        .ContentDiv {
+            .Image2 {
+                width: 4rem;
+            }
+        }
+
+        p {
+            color: #e5ddfc;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        .TheH1 {
+            margin-top: 2.5rem;
+            color: white;
+            font-size: 1.7rem;
+        }
+
+    }
+
+    .Div2 {
+        padding-left: 5rem;
+        margin-top: 3rem;
+
+        h1 {
+            color: white;
+            font-size: 1.7rem;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 1rem;
+        }
+
+        a {
+            color: #e5ddfc;
+            text-decoration: none;
+            margin: 0.5rem;
+        }
+
+        a:hover {
+            cursor: pointer;
+            transition: all 400ms ease;
+            color: #D616E3;
+        }
+    }
+
+    .Div3 {
+        margin-top: 1.5rem;
+        padding-left: 1rem;
+
+        h1 {
+            color: white;
+            font-size: 1.7rem;
+            margin-top: 1rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+            margin-left: -1.5rem;
+
+            ul {
+                li {
+                    list-style: none;
+                    color: #e5ddfc;
+                    margin: 0.8rem;
+                }
+            }
+        }
+    }
+
+    .ContentDiv {
+        margin-left: -5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: inherit;
+
+        h1 {
+            color: white;
+            font-size: 1.5rem;
+            margin-left: 1rem;
+            margin-top: -1.5rem;
+        }
+
+        p {
+            position: absolute;
+            right: 5.7rem;
+            margin-top: 1.5rem;
+
+        }
+
+        .Image1 {
+            background-color: #3d12b3;
+            height: 3rem;
+            width: 3rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 1.5rem;
+            }
+        }
+    }
+
+    .ContentDiv1 {
+
+        margin-top: 1rem;
+        margin-left: -5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        h1 {
+            color: white;
+            font-size: 1.5rem;
+            margin-left:1rem;
+            margin-top: -1.5rem;
+            span{
+                position:absolute;
+                right: -7rem;
+            }
+        }
+
+        p {
+            position: absolute;
+            right: 0;
+            margin-top: 1.5rem;
+        }
+
+        .Image2 {
+            background-color: #3d12b3;
+            height: 3rem;
+            width: 3rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 1.5rem;
+            }
+        }
+    }
+
+    .ContentDiv3 {
+        margin-left: -5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: inherit;
+        margin-top: 1rem;
+
+        h1 {
+            color: white;
+            font-size: 1.5rem;
+            margin-left:1rem;
+            margin-top: -1.5rem;
+
+        }
+
+        p {
+            position: absolute;
+            right: 9.8rem;
+            margin-top: 1.5rem;
+
+        }
+
+        .Image3 {
+            background-color: #3d12b3;
+            height: 3rem;
+            width: 3rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 1.5rem;
+            }
+        }
+    }
+}

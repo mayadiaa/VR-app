@@ -1,0 +1,63 @@
+#VRDiv {
+    height: 61vh;
+    display: flex;
+    background-color: #0b0320;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    .VR {
+        height: 39vh;
+        display: flex;
+        background-color: #160641;
+        margin: 1rem;
+        border-radius: 0.5rem;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+
+
+        .TheImg {
+            img {
+                width: 23.7rem;
+                overflow: hidden;
+                position: relative;
+                transform: scale(1);
+                transition: 0.3s ease-in;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+                overflow: hidden;
+                transition: all 500ms ease-in;
+
+
+
+            }
+            
+
+        }
+
+        h1 {
+            color: white;
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        h1:hover {
+            color: #d616e3;
+            transition: all 500ms ease;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    }
+}

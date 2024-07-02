@@ -1,0 +1,107 @@
+#ContactForm {
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    .Form {
+        height: 88vh;
+        display: flex;
+        margin: 1rem;
+
+        #Img {
+            height: 85vh;
+            background-image: url('./1.jpg');
+            background-size: cover;
+            background-position: 50%;
+        }
+
+        form {
+            height: 88vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+
+            input {
+                margin: 1rem;
+                padding: 1rem;
+                margin-top: 4rem;
+                border-color: #270b72;
+                border-style: solid;
+                border-width: 1px 1px 1px 1px;
+                background-color: transparent;
+                border-radius: 0.5rem;
+            }
+
+            input:hover {
+                border-color: #4e18e0;
+            }
+
+            .input1 {
+                padding: 5rem;
+            }
+
+            button {
+                margin-right: 25rem;
+                margin-top: 1rem;
+                padding: 0.9rem;
+                width: 11rem;
+                border: none;
+                background-color: #230c60;
+                color: white;
+                border-radius: 0.5rem;
+
+            }
+
+            button:hover {
+                background-color: #3d12b3;
+                transition: all ease 500ms;
+            }
+
+            label {
+                color: white;
+                font-size: 1.2rem;
+
+            }
+
+            .label1 {
+                position: absolute;
+                top: 1.5rem;
+                left: 2rem;
+
+            }
+
+            .label2 {
+                position: absolute;
+                top: 1.5rem;
+                left: 22rem;
+            }
+
+            .label3 {
+                position: absolute;
+                top: 10.5rem;
+                left: 2rem;
+            }
+
+            .label4 {
+                position: absolute;
+                top: 10.5rem;
+                left: 22rem;
+            }
+
+            .label5 {
+                position: absolute;
+                top: 19rem;
+                left: 2rem;
+            }
+        }
+    }
+}
